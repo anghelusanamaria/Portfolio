@@ -1,0 +1,1285 @@
+/*The colors and the properties of the whole page*/
+@import url("https://fonts.google.com/specimen/Space+Grotesk?query=space#standard-styles" );
+@import url("https://fonts.adobe.com/fonts/roc-grotesk");
+
+:root{
+    --white: #ffffff;
+    --purple: #bbb4d9;
+    --blue: #00358b;
+    --grey: #393939;
+    --black:#000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roc Grotesk', 'Space Grotesk', sans-serif;
+}
+
+
+.page {
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.menu-links{
+display: block;
+display: none;
+}
+
+.menu-btn {
+    width: 24px;
+    cursor: pointer;
+}
+
+.menu-btn hr {
+    margin-bottom: 5px;
+    height: 2px;
+    background:var(--black);
+    border: 0;
+}
+
+.menu-btn hr:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.page-content {
+    padding: 24px;
+}
+
+
+
+/*Portfolio Page*/
+
+.portfolio-text{
+    padding-top: 210px;
+    padding-left: 18.5px;
+    font: 'Roc Grotesk,';
+    font-size: 20px;
+}
+
+.rectangle{
+    margin-top: 170px;
+    margin-left: 20.5px;
+    width: 334px;
+    height: 208px;
+    background-color: var(--blue);
+}
+
+.space4you img{
+    margin-top: 350px;
+    margin-left: 20px;
+    min-width: 334px;
+    min-height: 200px;
+    width: 334px;
+    height: 199px;
+}
+
+.space4you h5{
+    padding-top: 34px;
+    padding-left: 20px;
+    font: 'Roc Grotesk';
+    font-style: normal;
+    font-size: 14px;
+}
+
+.space4you h2{
+    padding-top: 10px;
+    padding-left: 20px;
+    font: 'Roc Grotesc, medium';
+    font-size: 48px;
+}
+
+.swing-it img{
+    margin-top: 300px;
+    margin-left: 20px;
+    min-width: 334px;
+    min-height: 200px;
+    width: 334px;
+    height: 199px;
+}
+
+.swing-it h5{
+    padding-top: 34px;
+    padding-left: 20px;
+    font: 'Roc Grotesk';
+    font-style: normal;
+    font-size: 14px;
+}
+
+.swing-it h2{
+    padding-top: 10px;
+    padding-left: 20px;
+    font: 'Roc Grotesc, medium';
+    font-size: 48px;
+}
+
+.ballet img{
+    margin-top: 300px;
+    margin-left: 20px;
+    min-width: 334px;
+    min-height: 200px;
+    width: 334px;
+    height: 199px;
+}
+
+.ballet h5{
+    padding-top: 34px;
+    padding-left: 20px;
+    font: 'Roc Grotesk';
+    font-style: normal;
+    font-size: 14px;
+}
+
+.ballet h2{
+    padding-top: 10px;
+    padding-left: 20px;
+    font: 'Roc Grotesc, medium';
+    font-size: 48px;
+}
+
+.thorbil img{
+    margin-top: 300px;
+    margin-left: 20px;
+    min-width: 334px;
+    min-height: 200px;
+    width: 334px;
+    height: 199px;
+}
+
+.thorbil h5{
+    padding-top: 34px;
+    padding-left: 20px;
+    font: 'Roc Grotesk';
+    font-style: normal;
+    font-size: 14px;
+}
+
+.thorbil h2{
+    padding-top: 10px;
+    padding-left: 20px;
+    font: 'Roc Grotesc, medium';
+    font-size: 48px;
+}
+ 
+.video img{
+    margin-top: 300px;
+    margin-left: 20px;
+    min-width: 334px;
+    min-height: 200px;
+    width: 334px;
+    height: 199px;
+}
+
+.video h5{
+    padding-top: 34px;
+    padding-left: 20px;
+    font: 'Roc Grotesk';
+    font-style: normal;
+    font-size: 14px;
+}
+
+.video h2{
+    padding-top: 10px;
+    padding-left: 20px;
+    font: 'Roc Grotesc, medium';
+    font-size: 48px;
+}
+/*Portfolio Page Finish*/
+
+
+/*ABOUT page*/
+
+.foto-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotoportait{
+    min-width: 254px;
+    min-height: 254px;
+    width: 254px;
+    height: 254px;
+    margin-top: 100px;
+}
+
+.aboutext{
+    padding-top: 108px;
+    padding-left: 30px;
+    padding-right: 34px;
+    font: 'Roc Grotesk';
+    font-style: normal;
+    font-size: 20px;
+    color: var(--black);
+}
+
+.education h2{
+    padding-top: 176px;
+    padding-left: 30px;
+    font: 'Roc Grotesk';
+    font-weight:normal;
+    font-size: 20px;
+    color: var(--black);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.cph h4{
+    padding-top: 60px;
+    padding-left: 30px;
+    font: 'Roc Grotesk';
+    font-weight:normal;
+    font-size: 20px;
+    color: var(--grey);
+    letter-spacing: 0.4px;
+    line-height: 33px;
+}
+
+.cph h5{
+    padding-top: 25px;
+    padding-left: 30px;
+    font: 'Roc Grotesk';
+    font-weight:normal;
+    font-size: 16px;
+    color: var(--grey);
+}
+
+.zea h4{
+    padding-top: 45px;
+    padding-left: 30px;
+    font: 'Roc Grotesk';
+    font-weight:normal;
+    font-size: 20px;
+    color: var(--grey);
+    letter-spacing: 0.4px;
+    line-height: 33px;
+}
+
+.zea h5{
+    padding-top: 25px;
+    padding-left: 30px;
+    font: 'Roc Grotesk';
+    font-weight:normal;
+    font-size: 16px;
+    color: var(--grey);
+}
+
+
+.skills-fields{
+    display: flex;
+    flex-direction: column;
+}
+.skills h2 {
+    padding-top: 100px;
+    padding-left: 30px;
+    font: 'Roc Grotesk';
+    font-weight:normal;
+    font-size: 20px;
+    color: var(--grey);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.skills ul{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.skills li{
+    padding-top: 15px;
+    font: 'Roc Grotesk';
+    font-weight:normal;
+    font-size: 20px;
+    color: var(--grey);
+}
+
+.fields h2{
+    padding-top: 100px;
+    padding-left: 30px;
+    font: 'Roc Grotesk';
+    font-weight:normal;
+    font-size: 20px;
+    color: var(--grey);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.fields ul{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.fields li{
+    padding-top: 15px;
+    font: 'Roc Grotesk';
+    font-weight:normal;
+    font-size: 20px;
+    color: var(--grey);
+}
+/*ABOUT page finish*/
+
+
+/*Content of the CONTACT page*/
+
+.question{
+    padding-top: 192px;
+    padding-left: 17px;
+    font: 'Roc Grotesk' ;
+    font-weight: bold;
+    font-size: 24px;
+    color:var(--black);
+    text-align: left;
+}
+
+/*Cercles with links*/
+.email{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--black);
+    text-align: center;
+    background-color: var(--purple);
+    font: 'Roc Grotesk';
+    font-weight: bold;
+    margin-top: 62px;
+    margin-left: 20px;
+    
+}
+
+.linkedin{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: var(--black);
+    text-align: center;
+    background-color: var(--purple);
+    font: 'Roc Grotesk';
+    font-weight: bold;
+    margin-top: 17px;
+    margin-left: 206px;
+}
+
+.instagram{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    font-size: 11px;
+    color: var(--black);
+    text-align: center;
+    background-color: var(--purple);
+    font: 'Roc Grotesk';
+    font-weight: bold;
+    margin-top: 29px;
+    margin-left: 65px;
+}
+
+a:link {
+    color: var(--black);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--black);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+
+/*Footer*/
+
+.footer {
+    padding-top: 77px;
+    padding-bottom: 30px;
+    font: 'Roc Grotesk';
+    font-weight: normal;
+    font-size: 10px;
+    color:var(--black);
+    text-align: center;
+}
+
+/*CONTACT page finish*/
+
+/*Navigation*/
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    left: 100vw;
+    height: 100vh;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 24px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-menu-btn {
+    font-size: 32px;
+    line-height: 22px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.menu-opened {
+    left: 0;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.nav-content a {
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.nav-content a:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Tablet*/
+@media  (min-width: 768px) {
+    /*Header navigation*/
+
+    .logo{
+        font: 'Roc Grotesk, bold';
+        font-size: 20px;
+    }
+
+    .menu-btn{
+        display: block;
+        display: none;
+    }
+
+    .menu-links{
+        display: flex;
+        flex-direction: row;
+        padding-right: 20px;
+        align-content: right;
+    }
+
+    .menu-links a{
+        padding-left: 50px;
+    }
+    
+    /*Portfolio Page*/
+
+    .portfolio-text{
+        padding-top: 295px;
+        padding-left: 46.5px;
+        padding-right:46.5px ;
+        font: 'Roc Grotesk,';
+        font: 35px;
+    }
+    
+    .rectangle{
+        margin-top: 138px;
+        margin-left: 40px;
+        width: 442px;
+        height: 275px;
+        background-color: var(--blue);
+    }
+
+    .space4you{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .space4you img{
+        margin-top: 397px;
+        margin-left: 40px;
+        min-width: 336px;
+        min-height: 201px;
+        width: 336px;
+        height: 201px;
+    }
+    
+    .space4you-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .space4you h5{
+        padding-top: 467px;
+        padding-left: 104px;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 12px;
+    }
+    
+    .space4you h2{
+        padding-top: 10px;
+        padding-left: 104px;
+        font: 'Roc Grotesc, medium';
+        font-size: 34px;
+    }
+    
+
+
+    .swing-it{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .swing-it img{
+        order: 1;
+        margin-top: 400px;
+        margin-left: 45px;
+        min-width: 334px;
+        min-height: 201px;
+        width: 334px;
+        height: 201px;
+    }
+    
+    .swing-it h5{
+        padding-top: 470px;
+        padding-left: 50px;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    .swing-it h2{
+        padding-top: 10px;
+        padding-left: 50px;
+        font: 'Roc Grotesc, medium';
+        font-size: 48px;
+    }
+    
+
+
+
+    .ballet{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ballet img{
+        margin-top: 397px;
+        margin-left: 40px;
+        min-width: 336px;
+        min-height: 201px;
+        width: 336px;
+        height: 201px;
+    }
+    
+    .ballet text{
+        display: flex;
+        flex-direction: column;
+    }
+    .ballet h5{
+        padding-top: 430px;
+        padding-left: 70px;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    .ballet h2{
+        padding-top: 10px;
+        padding-left: 70px;
+        font: 'Roc Grotesc, medium';
+        font-size: 48px;
+        line-height: 50px;
+    }
+    
+
+
+    .thorbil{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .thorbil a{
+        order: 1;
+    }
+
+    .thorbil img{
+        margin-top: 400px;
+        margin-left: 170px;
+        min-width: 334px;
+        min-height: 201px;
+        width: 334px;
+        height: 201px;
+    }
+    
+    .thorbil h5{
+        padding-top: 460px;
+        padding-left: 50px;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    .thorbil h2{
+        padding-top: 5px;
+        padding-left: 50px;
+        font: 'Roc Grotesc, medium';
+        font-size: 48px;
+    }
+     
+
+    .video{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .video img{
+        margin-top: 397px;
+        margin-left: 40px;
+        min-width: 336px;
+        min-height: 201px;
+        width: 336px;
+        height: 201px;
+    }
+    
+    .video h5{
+        padding-top: 430px;
+        padding-left: 105px;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    .video h2{
+        padding-top: 10px;
+        padding-left: 105px;
+        font: 'Roc Grotesc, medium';
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    /*Portfolio Page finish*/
+    
+    
+    
+    
+    /*About page*/
+
+    .foto-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .fotoportait{
+        min-width: 390px;
+        min-height: 390px;
+        width: 390px;
+        height: 390px;
+        margin: 100px;
+    }
+
+    .aboutext{
+        padding-top: 120px;
+        padding-left: 40px;
+        padding-right: 26px;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 27px;
+        color: var(--black);
+    }
+    
+    .education h2{
+        padding-top: 210px;
+        padding-left: 40px;
+        font: 'Roc Grotesk';
+        font-weight:normal;
+        font-size: 24px;
+        color: var(--black);
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+    }
+    
+    .cph h4{
+        padding-top: 70px;
+        padding-left: 40px;
+        font: 'Roc Grotesk';
+        font-weight:normal;
+        font-size: 24px;
+        color: var(--grey);
+        letter-spacing: 0.4px;
+        line-height: 33px;
+    }
+    
+    .cph h5{
+        padding-top: 20px;
+        padding-left: 40px;
+        font: 'Roc Grotesk';
+        font-weight:normal;
+        font-size: 18px;
+        color: var(--grey);
+    }
+    
+    .zea h4{
+        padding-top: 60px;
+        padding-left: 40px;
+        font: 'Roc Grotesk';
+        font-weight:normal;
+        font-size: 24px;
+        color: var(--grey);
+        letter-spacing: 0.4px;
+        line-height: 34px;
+    }
+    
+    .zea h5{
+        padding-top: 20px;
+        padding-left: 40px;
+        font: 'Roc Grotesk';
+        font-weight:normal;
+        font-size: 18px;
+        color: var(--grey);
+    }
+    
+    .skills-fields{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .skills h2 {
+        padding-top: 170px;
+        padding-left: 40px;
+        font: 'Roc Grotesk';
+        font-weight:normal;
+        font-size: 24px;
+        color: var(--grey);
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+    }
+    
+    .skills ul{
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    
+    .skills li{
+        padding-top: 27px;
+        font: 'Roc Grotesk';
+        font-weight:normal;
+        font-size: 24px;
+        color: var(--grey);
+    }
+    
+    .fields h2{
+        padding-top: 170px;
+        padding-left: 270px;
+        font: 'Roc Grotesk';
+        font-weight:normal;
+        font-size: 24px;
+        color: var(--grey);
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+    }
+    
+    .fields ul{
+        padding-top: 40px;
+        padding-left: 270px;
+    }
+    
+    .fields li{
+        padding-top: 27px;
+        font: 'Roc Grotesk';
+        font-weight:normal;
+        font-size: 24px;
+        color: var(--grey);
+    }
+    /*ABOUT page finish*/
+
+
+    /*Content of the Contact page*/
+    .question{
+        padding-top: 206px;
+        padding-left: 40px;
+        font-size: 30px;
+    }
+
+    .email{
+        width: 170px;
+        height: 170px;
+        line-height: 170px;
+        border-radius: 50%;
+        font-size: 34px;
+        margin-top: 121px;
+        margin-left: 40px;
+        
+    }
+    
+    .linkedin{
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 50%;
+        font-size: 26px;
+        margin-top: -60px;
+        margin-left: 435px;
+    }
+    
+    .instagram{
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
+        border-radius: 50%;
+        font-size: 17px;
+        margin-top: 59px;
+        margin-left: 265px;
+    }
+/*Contact page finish*/
+
+
+    .footer {
+        padding-top: 110px;
+        padding-bottom: 30px;
+        font-size: 11px;
+    }
+
+}
+
+/*Web*/
+
+
+
+
+@media (min-width: 1020px) {
+         /*Header navigation*/
+
+         .logo{
+            font: 'Roc Grotesk,medium';
+            font-size: 25px;
+         }
+
+         .menu-btn{
+            display: block;
+            display: none;
+        }
+    
+        .menu-links{
+            display: flex;
+            flex-direction: row;
+            align-content: right;
+        }
+    
+        .menu-links a{
+            padding-left: 115px;
+            font-size: 20px;
+        }
+
+
+
+        /*Portfolio Page*/
+
+    .textblue{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .portfolio-text{
+        padding-top: 319px;
+        padding-left: 80px;
+        font: 'Roc Grotesk,';
+        font-style: normal;
+        font: 48px;
+    }
+    
+    .rectangle{
+        margin-top: 156px;
+        margin-left: 50px;
+        margin-right: 80px;
+        width: 813px;
+        height: 507px;
+        background-color: var(--blue);
+    }
+
+
+    .space4you{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .space4you img{
+        margin-top: 478px;
+        margin-left: 80px;
+        min-width: 672px;
+        min-height: 423px;
+        width: 672px;
+        height: 423px;
+    }
+    
+    .space4you-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .space4you h5{
+        padding-top: 640px;
+        padding-left: 164px;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 26px;
+    }
+    
+    .space4you h2{
+        padding-top: 10px;
+        padding-left: 164px;
+        font: 'Roc Grotesc, medium';
+        font-size: 60px;
+    }
+    
+
+
+    .swing-it{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 80px;
+        margin-top: 400px;
+    }
+
+    .swing-it img{
+        order: 1;
+        margin: 0;
+        min-width: 672px;
+        min-height: 423px;
+        width: 672px;
+        height: 423px;
+    }
+    
+    .swing-it h5{
+        padding: 0;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 20px;
+    }
+    
+    .swing-it h2{
+        font: 'Roc Grotesc, medium';
+        font-size: 60px;
+        padding-left: 0;
+    }
+    
+
+
+
+    .ballet{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ballet img{
+        margin-top: 478px;
+        margin-left: 80px;
+        min-width: 672px;
+        min-height: 423px;
+        width: 672px;
+        height: 423px;
+    }
+    
+    .ballet text{
+        display: flex;
+        flex-direction: column;
+    }
+    .ballet h5{
+        padding-top: 640px;
+        padding-left: 164px;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 26px;
+    }
+    
+    .ballet h2{
+        padding-top: 10px;
+        padding-left: 164px;
+        font: 'Roc Grotesc, medium';
+        font-size: 60px;
+    }
+    
+
+    .thorbil{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 80px;
+        margin-top: 400px;
+    }
+
+    .thorbil a{
+        order: 1;
+    }
+    .thorbil img{
+        margin: 0;
+        min-width: 672px;
+        min-height: 423px;
+        width: 672px;
+        height: 423px;
+    }
+    
+    .thorbil h5{
+        padding: 0;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 20px;
+    }
+    
+    .thorbil h2{
+        font: 'Roc Grotesc, medium';
+        font-size: 60px;
+        padding-left: 0;
+    }
+     
+
+    .video{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .video img{
+        margin-top: 478px;
+        margin-left: 80px;
+        min-width: 672px;
+        min-height: 423px;
+        width: 672px;
+        height: 423px;
+    }
+    
+    .video h5{
+        padding-top: 640px;
+        padding-left: 164px;
+        font: 'Roc Grotesk';
+        font-style: normal;
+        font-size: 26px;
+    }
+    
+    .video h2{
+        padding-top: 10px;
+        padding-left: 164px;
+        font: 'Roc Grotesc, medium';
+        font-size: 60px;
+    }
+
+    /*Portfolio Page finish*/
+
+
+        /*About page*/
+
+       
+        .foto-text{
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .fotoportait{
+            order: 1;
+            min-width: 460px;
+            min-height: 460px;
+            width: 460px;
+            height: 460px;
+            margin-top: 300px;
+            }
+
+        .aboutext{
+            padding-top: 300px;
+            padding-left: 80px;
+            font: 'Roc Grotesk, regular';
+            font-style: normal;
+            font-size: 34px;
+            color: var(--black);
+        }
+
+        .row-display{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .education h2{
+            padding-top: 469px;
+            padding-left: 132px;
+            font: 'Roc Grotesk, regular';
+            font-size: 34px;
+            color: var(--black);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+        }
+        
+        .cph h4{
+            padding-top: 77px;
+            padding-left: 132px;
+            font: 'Roc Grotesk';
+            font-weight:normal;
+            font-size: 34px;
+            color: var(--grey);
+            letter-spacing: 0.6px;
+            line-height: 46px;
+        }
+        
+        .cph h5{
+            padding-top: 26px;
+            padding-left: 132px;
+            font: 'Roc Grotesk';
+            font-weight:normal;
+            font-size: 27px;
+            color: var(--grey);
+        }
+        
+        .zea h4{
+            padding-top: 63px;
+            padding-left: 132px;
+            font: 'Roc Grotesk';
+            font-weight:normal;
+            font-size: 34px;
+            color: var(--grey);
+            letter-spacing: 0.6px;
+            line-height: 56px;
+        }
+        
+        .zea h5{
+            padding-top: 26px;
+            padding-left: 132px;
+            font: 'Roc Grotesk';
+            font-weight:normal;
+            font-size: 27px;
+            color: var(--grey);
+        }
+        
+        .skills-fields{
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .skills h2 {
+            padding-top: 469px;
+            padding-left: 300px;
+            font: 'Roc Grotesk,regular';
+            font-size: 34px;
+            color: var(--grey);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+        }
+        
+        .skills ul{
+            padding-top: 50px;
+            padding-left: 300px;
+        }
+        
+        .skills li{
+            padding-top: 27px;
+            font: 'Roc Grotesk,regular';
+            font-size: 34px;
+            color: var(--grey);
+        }
+        
+        .fields h2{
+            padding-top: 469px;
+            padding-left: 300px;
+            font: 'Roc Grotesk,regular';
+            font-size: 34px;
+            color: var(--grey);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+        }
+        
+        .fields ul{
+            padding-top: 50px;
+            padding-left: 300px;
+        }
+        
+        .fields li{
+            padding-top: 27px;
+            font: 'Roc Grotesk,regular';
+            font-size: 34px;
+            color: var(--grey);
+        }
+        /*ABOUT page finish*/
+
+    /*Content of the page*/
+    .question{
+        padding-top: 200px;
+        padding-left: 140px;
+        font-size: 48px;
+    }
+
+    .email{
+        width: 245px;
+        height: 245px;
+        line-height: 245px;
+        border-radius: 50%;
+        font-size: 48px;
+        margin-top: 90px;
+        margin-left: 131px;
+        
+    }
+    
+    .linkedin{
+        width: 220px;
+        height: 220px;
+        line-height: 220px;
+        border-radius: 50%;
+        font-size: 41px;
+        margin-top: -100px;
+        margin-left: 545px;
+    }
+    
+    .instagram{
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 50%;
+        font-size: 25px;
+        margin-top: -300px;
+        margin-left: 960px;
+    }
+
+    .footer {
+        margin-top: 260px;
+        padding-bottom: 40px;
+        font-size: 14px;
+    }
+
+}
+
+
