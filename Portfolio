@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'> <!--to tell the browser wich version of IntExp the page should be redered to-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="portfolio, student, Zealand, Køge, projects, web design, UX, UI, multimedia design">
+        <meta name="description" content="This website contains the university projects of Ana Maria Anghelus as part of her studies in Multimedia Design and Communication">
+        <link rel="stylesheet" href="style-portfolio.css">
+        <link rel="stylesheet"  href="https://fonts.google.com/specimen/Space+Grotesk?query=space#standard-styles">
+        <link rel="stylesheet" href="https://fonts.adobe.com/fonts/roc-grotesk#fonts-section">
+        <title>Ana Maria Anghelus</title>
+    </head>
+
+    <body>
+        <div class="page">
+            <div class="header">
+                
+                <div class="logo">
+                    <h3>Ana Maria Anghelus</h3>
+                </div>
+        
+                <div class="menu-big">
+
+                    <div class="menu-btn">
+                        <hr/>
+                        <hr/>
+                        <hr/>
+                    </div>
+
+                    <div class="menu-links">
+                        <a href="portfolio.html">Portofolio</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+
+                </div>    
+            </div>
+
+
+<!--Content of the page-->
+
+<section>
+
+    <div class="textblue">
+        <div class="portfolio-text">
+            <h2>Copenhagen-based UI/UX <br>designer focused on lifestyle and fashion.</h2>
+        </div>
+
+        <div class="rectangle"></div>
+    </div>
+
+</section>
+
+<section>
+    <div class="space4you">
+
+        <a href="http://anamariaanghelus.com/Space%20Odyssey%20html/contact.html">
+             <img src="images/racket-web.png " alt="racket and clouds">
+        </a>
+
+        <div class="space4you-text">
+            <h5>Concept idea and development</h5>
+            <h2>Space4You</h2>
+        </div>
+    </div>
+
+    <div class="swing-it">
+         <img src="images/swing-web.png" alt="girl dancing">
+
+        <div class="swing-it-text">
+            <h5>Research, data collection and web design for</h5>
+            <h2>Swing It</h2>
+        </div>
+    </div>
+
+    <div class="ballet">
+        <a href="http://anamariaanghelus.com/ballet/gl.html">
+             <img src="images/ballet-web.png" alt="girls in ballerina dresses">
+        </a>
+        
+        <div class="ballet-text">
+            <h5>UX and UI</h5>
+            <h2>Royal Ballet Academy</h2>
+        </div>
+    </div>
+
+    <div class="thorbil">
+        <a href="http://anamariaanghelus.com/dealership.html">
+             <img src="images/thorbil-web.png" alt="black car">
+        </a>
+        <div class="thorbil-text">
+            <h5>Marketing and web design</h5>
+            <h2>Thorbil</h2>
+         </div>
+    </div>
+
+    <div class="video">
+        <a href="https://vimeo.com/user128947993/review/489605597/b2dd1aba04">
+             <img src="images/video-web.png" alt="someone pouring wine in a glass">
+         </a>
+        
+        <div class="video-text">
+            <h5>Concept, filming and editing</h5>
+            <h2>‘The artist vices’</h2>
+         </div>
+    </div>
+
+</section>
+
+
+<!--Footer-->
+
+<div>
+    <p class="footer"> All rights reserved &copy; Ana Maria Anghelus</p>
+</div>
+
+
+<!--Navigation Bar for mobile-->
+
+            <nav>
+                <div class="nav-header">
+                    <h3>Ana Maria Anghelus</h3>
+                    <p class="close-menu-btn">x</p>
+                </div>
+
+                <div class="nav-content">
+                    <a href="portfolio.html">Portofolio</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </div>
+        <script src="contact1.js"></script>
+
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VP7QXEJS08"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VP7QXEJS08');
+    </script>
+    
+    </body>
+</html>
